@@ -1,5 +1,8 @@
 ## cli_utils - Useful to implementing fastly a cli interface
 
+# pip
+```pip install cli_interface_utils```
+
 # how to use it:
 - from cli_utils import AbstractCliWorker, CliInterface
 - extend AbstarctCLiWorker: 
