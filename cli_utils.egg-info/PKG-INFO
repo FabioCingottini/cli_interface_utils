@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: cli-utils
+Version: 0.1
+Summary: create a CliInterface, extends AbstractCliWorker, now you have a working cli application
+Home-page: http://github.com/
+Author: Fabio Cingottini
+Author-email: fabio.cingottini@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
