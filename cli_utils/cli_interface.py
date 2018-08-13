@@ -34,7 +34,7 @@ class CliInterface:
         while True:
             readed_input = input("> ").split()
             self.__command = readed_input[0]
-
+            self.__command_option = readed_input[1] if readed_input.__len__() is 2 else ""
             self.__corrected_command = self.__word_processor.correct_command(self.__command)
             if self.__cli_workers_controller.is_command_available(self.__corrected_command):
                 self.__manage_worker_job()
@@ -45,7 +45,7 @@ class CliInterface:
 
     def __manage_worker_job(self):
         cli_worker = self.__cli_workers_controller.get_cli_worker(self.__command)
-        cli_worker.work()
+        cli_worker.work(self.__command_option)
 
     def __print_cli_app_header(self):
         print(self.__welcome_phrase)
