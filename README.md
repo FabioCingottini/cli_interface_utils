@@ -1,4 +1,4 @@
-## cli_utils - Useful to implement fastly a cli interface
+## cli_interface_utils - Useful to implement fastly a cli interface
 
 # pip
 ```pip install cli_interface_utils```
